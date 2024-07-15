@@ -26,7 +26,7 @@ void main() {
         quot[i] = temp[0];
         
         if (quot[i] == '0') {
-            strcpy(key, "0000000000000000000000000000000");
+            memset(key, '0', keylen);
         } else {
             strcpy(key, key1);
         }
